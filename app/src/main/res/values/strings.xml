@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wireless Profiler</string>
+    <string name="label1">Server</string>
+    <string name="label2">Result</string>
+    <string name="edit_message">Host Name or IP Address</string>
+    <string name="button_send">Ping</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main_page">Wireless Profiler</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_scan">Scan Wireless Network</string>
+    <string name="Function1">Ping</string>
+    <string name="Function2">Scan Wifi Network</string>
+    <string name="Function3">DNS Lookup</string>
+    <string name="title_activity_lookup">DNS Lookup</string>
+    <string name="button_look">Lookup</string>
+    <string name="about">About us</string>
+    <string name="about_message">Hi Everyone,\n\nThanks for coming for our demo of Wireless Profiler. We are excited to present this android app as our final project for ENAS951 Wireless Communication.
+        It is our first experience developing Android app. We are happy that it can be related to what we learned in the class. Hope you also like it!\n\nThanks,\nTeam Member: \nLuyang Zhang\nYuanyuan Zhang\n
+    </string>
+</resources>

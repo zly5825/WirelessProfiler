@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Function1"
+        android:gravity="left|center_vertical"
+        android:drawablePadding="15dp"
+        android:drawableLeft="@drawable/pin"
+        android:drawableRight="@drawable/arrowright"
+        android:id="@+id/ping" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Function2"
+        android:gravity="left|center_vertical"
+        android:drawablePadding="15dp"
+        android:drawableLeft="@drawable/scan"
+        android:drawableRight="@drawable/arrowright"
+        android:layout_below="@id/ping"
+        android:id="@+id/scan" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Function3"
+        android:gravity="left|center_vertical"
+        android:drawablePadding="15dp"
+        android:drawableLeft="@drawable/dns"
+        android:drawableRight="@drawable/arrowright"
+        android:layout_below="@id/scan"
+        android:id="@+id/dnslookup" />
+    <LinearLayout
+        android:id="@+id/info_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingBottom="5dip"
+        android:orientation="vertical"
+        android:baselineAligned="false"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/drawer_bg">
+        <TextView
+            android:id="@+id/status_ip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10dip"
+            android:typeface="monospace"/>
+        <TextView
+            android:id="@+id/status_ssid"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10dip"
+            android:typeface="monospace" />
+        <TextView
+            android:id="@+id/status_mode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10dip"
+            android:typeface="monospace" />
+    </LinearLayout>
+</RelativeLayout>
+
+
